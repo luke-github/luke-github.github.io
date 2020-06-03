@@ -1,0 +1,80 @@
+body, main, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: normal;
+}
+
+/* Colour scheme */
+$accent1: #1E0067;
+$accent2: #0A0023;
+
+main.desktop {
+    .banner {
+        height: 205px;
+        background: linear-gradient(to right, $accent2, $accent1);
+        color: white;
+        font-family: "Roboto";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1 {
+            font-size: 50px;
+        }
+    }
+    .main {
+        height: calc(200vh - 205px);
+        position: relative;
+        nav {
+            background: linear-gradient(#C8C8C8, #FFFFFF);
+            height: 48px;
+            position: sticky;
+            z-index: 12;
+            border-bottom: calc(1px) solid grey;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.25);
+            display: flex;
+            justify-content: center;
+            top: 0;
+            a {
+                height: calc(100% - 5px);
+                text-align: center;
+                display: flex;
+                align-items: center;
+                font-size: 25px;
+                border-bottom: 5px solid rgba(0,0,0,0);
+                font-family: "Roboto";
+                font-weight: bold;
+                color: $accent1;
+                margin: 0px 30px;
+                transition: border-bottom 0.25s;
+            }
+            a.current, a:hover {
+                border-bottom: 5px solid $accent1;
+            }
+        }
+        .sect {
+            margin: 50px;
+            position: relative;
+            min-height: 150px;
+            font-family: "Roboto";
+            .background {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                z-index: -5;
+                font-size: 50px;
+                color: rgb(237, 210, 255);
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+            }
+            .content {
+                height: 100%;
+                position: absolute;
+                z-index: 1;
+            }
+        }
+    }
+}

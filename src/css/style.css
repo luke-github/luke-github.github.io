@@ -86,29 +86,17 @@ main.desktop .main .sect {
   font-family: "Roboto";
 }
 
-main.desktop .main .sect .background {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -5;
-  font-size: 50px;
-  color: #edd2ff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+main.desktop .main .sect .content {
+  text-align: center;
 }
 
-main.desktop .main .sect .content {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 1;
+main.desktop .main .sect header {
   text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: #1E0067;
+  font-weight: bold;
+  border-bottom: 5px solid #1E0067;
 }
 /*# sourceMappingURL=style.css.map */

@@ -59,21 +59,17 @@ main.desktop {
             width: 70%;
             min-height: 150px;
             font-family: "Roboto";
-            .background {
-                height: 100%;
-                width: 100%;
-                position: absolute;
-                z-index: -5;
-                font-size: 50px;
-                color: rgb(237, 210, 255);
-                display: flex;
-                justify-content: flex-end;
-                align-items: flex-end;
-            }
             .content {
-                height: 100%;
-                position: absolute;
-                z-index: 1;
+                text-align: center;
+            }
+            header {
+                text-align: center;
+                padding-bottom: 50px;
+                margin-bottom: 50px;
+                font-size: 50px;
+                color: $accent1;
+                font-weight: bold;
+                border-bottom: 5px solid $accent1;
             }
         }
     }

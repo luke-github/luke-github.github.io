@@ -106,7 +106,9 @@ main.desktop .main .sect .background {
 
 main.desktop .main .sect .content {
   height: 100%;
+  width: 100%;
   position: absolute;
   z-index: 1;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

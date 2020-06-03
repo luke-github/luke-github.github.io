@@ -25,7 +25,6 @@ main.desktop {
         }
     }
     .main {
-        height: calc(200vh - 205px);
         position: relative;
         nav {
             background: linear-gradient(#C8C8C8, #FFFFFF);
@@ -55,8 +54,9 @@ main.desktop {
             }
         }
         .sect {
-            margin: 50px;
+            margin: 50px auto;
             position: relative;
+            width: 70%;
             min-height: 150px;
             font-family: "Roboto";
             .background {

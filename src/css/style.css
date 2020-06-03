@@ -33,7 +33,6 @@ main.desktop .banner h1 {
 }
 
 main.desktop .main {
-  height: calc(200vh - 205px);
   position: relative;
 }
 
@@ -80,8 +79,9 @@ main.desktop .main nav a.current, main.desktop .main nav a:hover {
 }
 
 main.desktop .main .sect {
-  margin: 50px;
+  margin: 50px auto;
   position: relative;
+  width: 70%;
   min-height: 150px;
   font-family: "Roboto";
 }
